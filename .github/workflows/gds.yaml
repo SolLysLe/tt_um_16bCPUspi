@@ -46,4 +46,4 @@ jobs:
     steps:
       - uses: TinyTapeout/tt-gds-action/viewer@ttsky26a
         with:
-          pdk: sky130
+          pdk: sky130A
