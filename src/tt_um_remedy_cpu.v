@@ -3410,11 +3410,13 @@ module tt_um_remedy_cpu (
   CompUnsigned #(
     .Bits(5)
   )
-  CompUnsigned_i30 (
+CompUnsigned_i30 CompUnsigned_i30 (
     .a( s34 ),
     .b( 5'b1 ),
-    .\= ( s35 )
-  );
+    .\= ( s35 ),
+    .\> ( ),    // Liệt kê nhưng để trống
+    .\< ( )     // Liệt kê nhưng để trống
+);
   assign s56 = s34[3:0];
   assign s57 = s54[0];
   assign s58 = s54[1];
