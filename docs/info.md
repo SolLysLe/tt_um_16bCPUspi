@@ -5,7 +5,7 @@
 ## How to test
 
 Use the custom IDE/toolchain to assemble TinyCPU assembly, or the work-in-progress cpp-ish compiler, then upload the generated program image to the external flash. 
-Based on the original implementation by leonidas213
+Based on the original implementation by leonidas213. Special thanks to leonidas213 for the original project, which taught me a great deal. I pursued tapeout of this design to continue learning through real ASIC implementation.
 
 ### Assembler
 ![image](assembler.png)
